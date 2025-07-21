@@ -1,0 +1,5 @@
+{
+  "prompt_a": "Write Python unit tests using the unittest module for the following function:\n{function_code}",
+  "prompt_b": "Given this function:\n{function_code}\nWrite pytest test cases for it.",
+  "prompt_c": "Based on this description: '{description}', generate Python tests for the function implementation."
+}

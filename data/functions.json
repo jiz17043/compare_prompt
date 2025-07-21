@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1",
+    "description": "Check if a number is prime.",
+    "function_code": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True",
+    "ground_truth_test": "def test_is_prime():\n    assert is_prime(2) == True\n    assert is_prime(4) == False\n    assert is_prime(17) == True"
+  }
+]
